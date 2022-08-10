@@ -5,31 +5,45 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #ffffff;
+  
 }
 
-/* header */
+/* ---------header --------------*/
 .logo-top {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
 }
 .logo-top-color {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
-/* nav */
-.studio-link {
+/* ---------- nav --------------*/
+.link-focus a:hover {
+  color: #000000;
+  background-color: #2196F3;
+  border-radius: 4px;
+}
+.link-focus a:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #2196F3;
+}
+
+.nav-link-color:hover {
+
+  border-radius: 4px;
+}
+.nav-link-colorfocus {
+  outline: none;
+
+}
+
+
+.nav-link,
+.nav-link-color {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -37,15 +51,11 @@ body {
   text-decoration: none;
   color: #212121;
 }
-.studio-link-color {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.nav-link-color {
   color: #2196f3;
 }
-.mailto {
+.mailto,
+.tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -54,19 +64,13 @@ body {
   color: #2196f3;
 }
 .tel {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
   color: #757575;
 }
+/* ---------------- section_1 ---------- */
 .header-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -75,19 +79,18 @@ body {
   background: #2f303a;
 }
 
-/* -------button -------------*/
+/* -------button Studio-------------*/
 .button {
+  font-family: 'Roboto';
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
 .button-text {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -98,10 +101,10 @@ body {
   background-color: #188CE8;;
 }
 .button:focus {
-  font-family: 'Roboto';
   outline: none;
   box-shadow: 0 0 0 3px #188CE8;;
 }
+/* ------ cection-2 -------------*/
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -122,7 +125,6 @@ color: #212121;
 .text-section-2 {
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #757575;
@@ -137,35 +139,20 @@ color: #212121;
 }
 /* section-3 */
 
-.header-text-section-4 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
 .foto {
   border-radius: 0px;
 }
-.header-text-section-4 {
+.header-text-section-4,
+.text-section-4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .text-section-4 {
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -176,56 +163,45 @@ color: #212121;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
+  text-decoration: none;
   color: #2196f3;
 }
-
 .logo-footer-color {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  text-decoration: none;
-  letter-spacing: 0.03em;
-
   color: #ffffff;
 }
-.footer {
+.footer-background {
   background: #2f303a;
 }
-.adress {
+.adress-link {
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
   font-style: normal;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
 }
-.mailto-footer {
+.ul-address a:hover {
+ color: #ffffff;
+  background-color: #2196F3;
+  border-radius: 4px;
+  width: text;
+}
+.ul-address a:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #2196F3;
+}
+.mailto-footer,
+.tel-footer {
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
-.tel-footer {
-  font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  text-decoration: none;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 /* portfoli */
 
 .button-portfolio-color {
@@ -267,7 +243,6 @@ color: #212121;
 
   color: #ffffff;
 }
-
 .button-portfolio-text {
   font-family: 'Roboto';
   font-weight: 500;
@@ -284,7 +259,6 @@ color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  /* identical to box height, or 200% */
   text-decoration: none;
   letter-spacing: 0.06em;
   color: #212121;
@@ -292,6 +266,5 @@ color: #212121;
 .text-portfolio {
    font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
   text-decoration: none;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;}
