@@ -11,6 +11,7 @@ body {
   --beckground-color: #2196f3;
   --text-color-p: #757575;
   --body-background-color: #ffffff;
+  --button-hover-focus: #188ce8;
 }
 /* ---------header ----------- ---*/
 .logo-top {
@@ -27,8 +28,7 @@ body {
 }
 /* ---------- nav --------------*/
 .link-focus a:hover {
-  color: var(--text-color);
-  background-color: var(--beckground-color);
+  color: var(--beckground-color);
   border-radius: 4px;
 }
 .link-focus a:focus {
@@ -83,8 +83,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-}
-.button-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -95,11 +93,11 @@ body {
   color: var(--body-background-color);
 }
 .button:hover {
-  background-color: var(--beckground-color);
+  background-color: var(--button-hover-focus);
 }
 .button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #188ce8;
+  box-shadow: 0 0 0 3px var(--button-hover-focus);
 }
 
 /* ------ cection-2 -------------*/
@@ -112,7 +110,6 @@ body {
   color: var(--text-color);
 }
 .header-text-section-2 {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -181,8 +178,8 @@ body {
   color: var(--body-background-color);
 }
 .ul-address a:hover {
-  color: var(--body-background-color);
-  background-color: var(--beckground-color);
+  color: var(--beckground-color);
+
   border-radius: 4px;
 }
 .ul-address a:focus {
