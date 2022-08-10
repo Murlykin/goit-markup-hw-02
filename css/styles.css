@@ -184,7 +184,6 @@ body {
   color: var(--body-background-color);
   background-color: var(--beckground-color);
   border-radius: 4px;
-  width: text;
 }
 .ul-address a:focus {
   outline: none;
